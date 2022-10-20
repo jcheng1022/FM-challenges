@@ -1,0 +1,93 @@
+html {
+  background-color: hsl(30, 38%, 92%);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  width: 500px;
+  height: 600;
+  display: flex;
+}
+
+.imageContainer {
+  max-width: 250px;
+}
+.productInfo {
+  width: 50%;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.productDescription {
+  margin: 0px 20px;
+}
+
+.productDescriptionText {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+.priceInfo {
+  display: flex;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.productCategory {
+  margin: 10px 20px;
+  padding-top: 10px;
+}
+
+.productCategoryText {
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 100;
+  font-family: Montserrat, sans-serif;
+}
+
+.productName {
+  margin: 0 20px;
+}
+
+.productNameText {
+  font-size: 25px;
+}
+.activePriceText {
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+
+.oldPriceText {
+  text-decoration: line-through;
+  font-size: 15px;
+  margin: 0px 20px;
+}
+
+button {
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  padding: 15px 65px;
+  border: 1px solid hsl(158, 36%, 37%);
+  border-radius: 10px;
+  margin: 0px 25px;
+}
+
+.buttonText {
+  font-weight: 700;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
