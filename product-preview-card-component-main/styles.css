@@ -75,6 +75,8 @@ body {
   text-decoration: line-through;
   font-size: 15px;
   margin: 0px 20px;
+  font-family: Montserrat, sans-serif;
+  color: hsl(228, 12%, 48%);
 }
 
 button {
