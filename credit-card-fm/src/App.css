@@ -1,0 +1,79 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.cardContainer {
+  background-image: url("./images/bg-main-desktop.png");
+  width: 30%;
+  height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100vh;
+}
+
+.innerFormContainer {
+  width: 350px;
+  height: 350px;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailSection {
+  margin: 0 15px;
+}
+
+.inputRow {
+  margin: 0px 20px;
+}
+
+.inputLabel {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.expInputField {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.expDetail {
+  display: flex;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.confirmBtn {
+  width: 90%;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
