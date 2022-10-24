@@ -6,7 +6,7 @@ export default function Form() {
       <div className="innerFormContainer">
         <form>
           <div className="inputRow">
-            <p className="inputLabel"> Cardholder Name</p>
+            <p className="inputLabel"> CARDHOLDER NAME</p>
             <input
               className="inputField"
               type="text"
@@ -14,7 +14,7 @@ export default function Form() {
             />
           </div>
           <div className="inputRow">
-            <p className="inputLabel">Card Number</p>
+            <p className="inputLabel">CARD NUMBER</p>
             <input
               className="inputField"
               type="text"
